@@ -2,7 +2,7 @@ import { writable, type Writable } from "svelte/store"
 
 
 
-export const faqState = writable(1)
+export const faqState = writable(NaN)
 
 export const faqs = [
     {
