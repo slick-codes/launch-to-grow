@@ -36,7 +36,7 @@
 	}
 
 	.nav {
-		padding: 0.5em 7em;
+		padding: 0.5em 3em;
 		background: white;
 		box-shadow: 0px 12px 16px -2px rgba(73, 183, 73, 0.113);
 		position: sticky;
@@ -111,6 +111,15 @@
 					width: 100%;
 					position: absolute;
 				}
+			}
+		}
+	}
+	@media (max-width: 764px) {
+		.nav {
+			&__container {
+			}
+			&__link {
+				display: none;
 			}
 		}
 	}
