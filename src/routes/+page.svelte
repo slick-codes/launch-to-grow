@@ -1,4 +1,5 @@
 <script lang="ts">
+	import Footer from './../components/Footer.svelte';
 	import Projects from './../components/Projects.svelte';
 	import Navigation from './../components/Navigation.svelte';
 	import Header from './../components/Header.svelte';
@@ -13,6 +14,7 @@
 	<Navigation />
 	<Header />
 	<Projects />
+	<Footer />
 </main>
 
 <style>
