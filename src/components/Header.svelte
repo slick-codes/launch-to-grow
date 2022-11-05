@@ -29,6 +29,7 @@
 	.header {
 		min-height: 30em;
 		position: relative;
+		padding-bottom: 5em;
 
 		&__intro {
 			display: flex;
