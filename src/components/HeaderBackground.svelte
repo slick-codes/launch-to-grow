@@ -1,4 +1,8 @@
-<div class="bg">
+<script lang="ts">
+	export let invert: boolean = false;
+</script>
+
+<div class="bg" class:invert>
 	<aside class="header__green-bg">
 		<img src="/5774968.jpg" alt="Background Image" />
 	</aside>
@@ -12,9 +16,12 @@
 		justify-content: stretch;
 		height: 100%;
 		position: absolute;
+		top: 0;
 		width: 100%;
 		background: purple;
-
+		&.invert {
+			transform: scaleX(-1);
+		}
 		& > aside {
 			padding: 0px 1em;
 			width: 100%;
