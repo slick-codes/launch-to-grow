@@ -86,7 +86,9 @@
 
 			p {
 				font-size: 0.85rem;
-				font-weight: 500;
+				font-weight: 600;
+				line-height: 1.3em;
+				letter-spacing: normal;
 				color: white;
 			}
 		}
