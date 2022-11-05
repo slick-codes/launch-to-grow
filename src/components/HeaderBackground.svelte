@@ -4,6 +4,7 @@
 
 <div class="bg" class:invert>
 	<aside class="header__green-bg">
+		<!-- svelte-ignore a11y-img-redundant-alt -->
 		<img src="/5774968.jpg" alt="Background Image" />
 	</aside>
 	<aside class="header__white-bg" />
