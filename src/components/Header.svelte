@@ -8,8 +8,8 @@
 		<HeaderBackground />
 
 		<div class="header__intro">
-			<div class="header__intro-content">
-				<section class="header__text">
+			<div class="header__intro-content ">
+				<section class="header__text innerbackground ">
 					<h1>Join the L2G Syndicate to <span>Invest</span> in Tech Startups</h1>
 					<p>Are you a startup? <span>Register</span></p>
 				</section>
@@ -55,6 +55,14 @@
 			}
 		}
 		&__text {
+			&.innerbackground {
+				&:before {
+					display: none;
+				}
+				&:after {
+					display: none;
+				}
+			}
 			h1 {
 				width: 9em;
 				font-size: 3.5rem;
@@ -111,6 +119,25 @@
 	}
 	@media (max-width: 1076px) {
 		.header {
+			// padding: 0px 1em;
+
+			&__intro {
+				padding: 0px 1em;
+			}
+			&__text {
+				h1 {
+					width: auto;
+				}
+			}
+			&__image {
+				img {
+					width: 25em;
+				}
+			}
+		}
+	}
+	@media (max-width: 822px) {
+		.header {
 			// padding-left: 1em;
 			&__intro {
 				padding: 0;
@@ -125,6 +152,14 @@
 				padding: 3.6em 1em;
 				padding-top: 3em;
 				background: #49b749;
+				&.innerbackground {
+					&:before {
+						display: block;
+					}
+					&:after {
+						display: block;
+					}
+				}
 
 				h1 {
 					// max-width: 15em;
