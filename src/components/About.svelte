@@ -3,7 +3,7 @@
 		<section class="image">
 			<img src="/Group 6.png" alt="No" />
 		</section>
-		<section class="about">
+		<section class="about innerbackground">
 			<div class="about__us">
 				<h1>About Us</h1>
 				<p>
@@ -68,6 +68,14 @@
 			}
 			.about {
 				padding-left: 2em;
+				&.innerbackground {
+					&:before {
+						display: none;
+					}
+					&:after {
+						display: none;
+					}
+				}
 			}
 			& > section {
 				width: 100%;
@@ -98,7 +106,7 @@
 		}
 	}
 
-	@media (max-width: 667px) {
+	@media (max-width: 822px) {
 		.container {
 			.content {
 				flex-direction: column-reverse;
@@ -111,12 +119,22 @@
 				&:before {
 					display: none;
 				}
-			}
-			.about {
-				background: #49b749;
-				padding: 3em 0;
-				h1 {
-					// color: black;
+				.about {
+					background: #49b749;
+					width: 100%;
+					padding: 3em 0.5em;
+
+					&.innerbackground {
+						&:before {
+							display: block;
+						}
+						&:after {
+							display: block;
+						}
+					}
+					h1 {
+						// color: black;
+					}
 				}
 			}
 			.image {
