@@ -29,7 +29,13 @@
 			</div>
 			<div class="nav__join-button">
 				<div class="button">
-					<button>JOIN US</button>
+					<button
+						data-tf-popup="iXFRG3k5"
+						data-tf-iframe-props="title=My typeform"
+						data-tf-medium="snippet"
+					>
+						JOIN US
+					</button>
 				</div>
 				<div class="menu" on:click={toggleMenuState}>
 					<Icon icon="fe:app-menu" />
@@ -105,7 +111,7 @@
 				padding: 0.5px 0em;
 				align-items: center;
 				justify-content: center;
-				display: flex;
+				display: none;
 				font-size: 1.9rem;
 			}
 
@@ -159,6 +165,11 @@
 					&.active {
 						display: flex;
 					}
+				}
+			}
+			&__join-button {
+				.menu {
+					display: flex;
 				}
 			}
 		}
