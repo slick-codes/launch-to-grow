@@ -19,9 +19,11 @@
 		<h1>{@html title}</h1>
 		<div class="symble">+</div>
 	</div>
-	<p class:show={state === index}>
-		{@html body}
-	</p>
+	<div class="paragraph innerbackground">
+		<p class:show={state === index}>
+			{@html body}
+		</p>
+	</div>
 </div>
 
 <style lang="scss">
@@ -38,6 +40,16 @@
 
 		p:not(.show) {
 			display: none;
+		}
+		.paragraph {
+			width: 100%;
+			background: white;
+
+			&.innerbackground {
+				&:after {
+					opacity: 0.9;
+				}
+			}
 		}
 		p {
 			line-height: 1.5em;
