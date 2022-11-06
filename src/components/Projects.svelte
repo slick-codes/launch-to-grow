@@ -2,8 +2,8 @@
 	import ProjectCard from './ProjectCard.svelte';
 </script>
 
-<main class="project">
-	<div class="project__container">
+<main class="project innerbackground">
+	<div class="project__container ">
 		<section class="project__title">
 			<h1>Portfolio</h1>
 			<p>Services We've rendered to over the years.</p>
