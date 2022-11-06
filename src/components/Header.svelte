@@ -21,7 +21,7 @@
 			</div>
 		</div>
 
-		<About />
+		<!-- <About /> -->
 	</header>
 </main>
 
@@ -41,6 +41,7 @@
 
 			&-content {
 				display: flex;
+				justify-content: center;
 				align-items: center;
 
 				& > section {
@@ -105,6 +106,45 @@
 		&__image {
 			img {
 				width: 30em;
+			}
+		}
+	}
+	@media (max-width: 1076px) {
+		.header {
+			// padding-left: 1em;
+			&__intro {
+				padding: 0;
+
+				&-content {
+					// width: 100%;
+					flex-flow: column;
+				}
+			}
+
+			&__text {
+				padding: 3.6em 1em;
+				padding-top: 3em;
+				background: #49b749;
+
+				h1 {
+					// max-width: 15em;
+					padding: 0.2em;
+					width: 100%;
+				}
+			}
+			&__image {
+				padding: 0px 1em;
+				padding-top: 2em;
+				width: 100%;
+
+				&-container {
+					width: 100%;
+				}
+
+				img {
+					width: 100%;
+					max-width: 50em;
+				}
 			}
 		}
 	}
