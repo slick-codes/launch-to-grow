@@ -7,6 +7,11 @@
 	}
 </script>
 
+<svelte:head>
+	<script src="//embed.typeform.com/next/embed.js"></script>
+	<!-- <script src="//embed.typeform.com/next/embed.js"></script> -->
+</svelte:head>
+
 <div class="nav">
 	<div class="nav__container">
 		<section class="nav__logo">
