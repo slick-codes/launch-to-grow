@@ -18,13 +18,13 @@
 		<section class="nav__link">
 			<div class="link__container" class:active={menuState}>
 				<li on:click={toggleMenuState}>
-					<a href="/">About</a>
+					<a href="/#About">About</a>
 				</li>
 				<li on:click={toggleMenuState}>
-					<a href="/">Projects</a>
+					<a href="/#Project">Projects</a>
 				</li>
 				<li on:click={toggleMenuState}>
-					<a href="/">FAQs</a>
+					<a href="/#FAQs">FAQs</a>
 				</li>
 			</div>
 			<div class="nav__join-button">

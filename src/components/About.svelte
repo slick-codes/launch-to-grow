@@ -1,4 +1,4 @@
-<div class="container">
+<div class="container" id="About">
 	<div class="content">
 		<section class="image">
 			<img src="/Group 6.png" alt="No" />

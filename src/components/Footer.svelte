@@ -4,7 +4,7 @@
 	import HeaderBackground from './HeaderBackground.svelte';
 </script>
 
-<footer class="footer">
+<footer class="footer" id="FAQs">
 	<HeaderBackground invert={true} />
 	<div class="footer__container">
 		<FAQs />
