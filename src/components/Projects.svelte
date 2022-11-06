@@ -55,7 +55,7 @@
 			flex-wrap: wrap;
 			justify-content: center;
 			align-items: center;
-			padding-top: 4em;
+			padding-top: 2em;
 		}
 	}
 </style>
