@@ -1,4 +1,11 @@
-<script lang="ts"></script>
+<script lang="ts">
+	import Icon from '@iconify/svelte';
+
+	let menuState: boolean = false;
+	function toggleMenuState() {
+		menuState = !menuState;
+	}
+</script>
 
 <div class="nav">
 	<div class="nav__container">
@@ -7,20 +14,26 @@
 				<img src="/LTG2 1.png" alt="Logo Container" />
 			</div>
 		</section>
+		<!-- svelte-ignore a11y-click-events-have-key-events -->
 		<section class="nav__link">
-			<div class="link__container">
-				<li>
+			<div class="link__container" class:active={menuState}>
+				<li on:click={toggleMenuState}>
 					<a href="/">About</a>
 				</li>
-				<li>
+				<li on:click={toggleMenuState}>
 					<a href="/">Projects</a>
 				</li>
-				<li>
+				<li on:click={toggleMenuState}>
 					<a href="/">FAQs</a>
 				</li>
 			</div>
 			<div class="nav__join-button">
-				<button>JOIN US</button>
+				<div class="button">
+					<button>JOIN US</button>
+				</div>
+				<div class="menu" on:click={toggleMenuState}>
+					<Icon icon="fe:app-menu" />
+				</div>
 			</div>
 		</section>
 	</div>
@@ -79,6 +92,22 @@
 
 		&__join-button {
 			padding-left: 0.5em;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+
+			.button {
+				padding: 0px 1.5em;
+				padding-right: 2em;
+			}
+
+			.menu {
+				padding: 0.5px 0em;
+				align-items: center;
+				justify-content: center;
+				display: flex;
+				font-size: 1.9rem;
+			}
 
 			button {
 				background: #1c4ca1;
@@ -109,8 +138,28 @@
 	@media (max-width: 764px) {
 		.nav {
 			padding: 0.5em 1em;
+
+			&__container {
+				background: inherit;
+			}
 			&__link {
-				display: none;
+				background: inherit;
+				.link__container {
+					position: absolute;
+					width: 100%;
+					padding: 1em 0;
+					background: inherit;
+					left: 0;
+					top: 6.2em;
+					text-align: center;
+					display: none;
+					justify-content: center;
+					align-items: center;
+
+					&.active {
+						display: flex;
+					}
+				}
 			}
 		}
 	}
