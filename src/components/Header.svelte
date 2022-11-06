@@ -21,7 +21,7 @@
 			</div>
 		</div>
 
-		<!-- <About /> -->
+		<About />
 	</header>
 </main>
 
@@ -130,6 +130,7 @@
 					// max-width: 15em;
 					padding: 0.2em;
 					width: 100%;
+					font-size: 2.9rem;
 				}
 			}
 			&__image {
