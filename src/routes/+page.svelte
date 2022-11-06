@@ -17,10 +17,49 @@
 	<Footer />
 </main>
 
-<style>
+<style lang="scss">
 	/* your styles go here */
 	:global(*) {
 		font-family: 'raleway';
 		/* letter-spacing: 0.1em; */
+	}
+	:global(*) {
+		margin: 0;
+		padding: 0;
+		text-decoration: none;
+		list-style: none;
+		box-sizing: border-box;
+	}
+	:global(.innerbackground > *) {
+		z-index: 3;
+		position: relative;
+	}
+	:global(.innerbackground) {
+		position: relative;
+
+		&:before {
+			content: '';
+			display: block;
+			background-image: url('/5774968.jpg');
+			background-size: cover;
+			height: 100%;
+			position: absolute;
+			width: 100%;
+			left: 0;
+			top: 0;
+			// z-index: 0;
+		}
+		&:after {
+			content: '';
+			display: block;
+			width: 100%;
+			height: 100%;
+			position: absolute;
+			background: inherit;
+			opacity: 0.95;
+			left: 0;
+			top: 0;
+			// z-index: 0;
+		}
 	}
 </style>
