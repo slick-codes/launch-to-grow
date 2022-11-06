@@ -17,7 +17,7 @@
 <div class="faq" on:click={updateState}>
 	<div class="faq__title">
 		<h1>{@html title}</h1>
-		<div class="symble">+</div>
+		<div class="symble">{state === index ? '-' : '+'}</div>
 	</div>
 	<div class="paragraph innerbackground">
 		<p class:show={state === index}>
@@ -28,14 +28,27 @@
 
 <style lang="scss">
 	.faq {
-		border: solid 1px rgb(200, 200, 200);
 		display: flex;
 		width: 100%;
 		flex-flow: column;
 		align-items: center;
 		justify-content: space-between;
 		background: white;
+		border: solid 1px rgb(200, 200, 200);
+		border-top: none;
+		border-bottom: none;
 		cursor: pointer;
+		border-left: none;
+		border-right: none;
+
+		&:first-child {
+			border: solid 1px rgb(200, 200, 200);
+			border-right: inherit;
+			border-left: inherit;
+		}
+		&:not(:first-child) {
+			border-bottom: solid 1px rgb(200, 200, 200);
+		}
 		// max-width: 50em;
 
 		p:not(.show) {
@@ -64,7 +77,7 @@
 			display: flex;
 			justify-content: center;
 			align-items: center;
-			padding: 0.8em 1em;
+			padding: 0.2em 1em;
 
 			h1 {
 				font-size: 1rem;
@@ -74,7 +87,7 @@
 
 			> div {
 				margin-left: auto;
-				font-size: 2rem;
+				font-size: 3rem;
 			}
 		}
 	}
