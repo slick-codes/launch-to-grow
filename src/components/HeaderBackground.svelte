@@ -48,7 +48,7 @@
 		height: 100%;
 	}
 
-	@media (max-width: 1076px) {
+	@media (max-width: 822px) {
 		.bg {
 			&:not(.invert) {
 				display: none;
