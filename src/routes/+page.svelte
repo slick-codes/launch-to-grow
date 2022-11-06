@@ -21,6 +21,6 @@
 	/* your styles go here */
 	:global(*) {
 		font-family: 'raleway';
-		letter-spacing: 0.1em;
+		/* letter-spacing: 0.1em; */
 	}
 </style>
