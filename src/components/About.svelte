@@ -97,4 +97,37 @@
 			width: 19em;
 		}
 	}
+
+	@media (max-width: 667px) {
+		.container {
+			.content {
+				flex-direction: column-reverse;
+				padding: 0;
+				border: none;
+				border-radius: 0;
+				background: transparent;
+				// padding: 3em 0;
+
+				&:before {
+					display: none;
+				}
+			}
+			.about {
+				background: #49b749;
+				padding: 3em 0;
+				h1 {
+					// color: black;
+				}
+			}
+			.image {
+				padding: 0px 1.5em;
+				padding-top: 3em;
+
+				img {
+					width: 100%;
+					max-width: 35em;
+				}
+			}
+		}
+	}
 </style>
