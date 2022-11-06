@@ -27,20 +27,12 @@
 </div>
 
 <style lang="scss">
-	:global(*) {
-		margin: 0;
-		padding: 0;
-		text-decoration: none;
-		list-style: none;
-		box-sizing: border-box;
-	}
-
 	.nav {
 		padding: 0.5em 3em;
 		background: white;
 		box-shadow: 0px 12px 16px -2px rgba(73, 183, 73, 0.113);
 		position: sticky;
-		z-index: 3;
+		z-index: 4;
 		top: 0;
 		display: flex;
 		justify-content: center;
@@ -116,8 +108,7 @@
 	}
 	@media (max-width: 764px) {
 		.nav {
-			&__container {
-			}
+			padding: 0.5em 1em;
 			&__link {
 				display: none;
 			}
