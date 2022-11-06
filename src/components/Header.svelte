@@ -11,7 +11,15 @@
 			<div class="header__intro-content ">
 				<section class="header__text innerbackground ">
 					<h1>Join the L2G Syndicate to <span>Invest</span> in Tech Startups</h1>
-					<p>Are you a startup? <span>Register</span></p>
+					<p>
+						Are you a startup? <span
+							data-tf-popup="zkFJMfUJ"
+							data-tf-iframe-props="title=Startup Registration Form (copy)"
+							data-tf-medium="snippet"
+						>
+							Register
+						</span>
+					</p>
 				</section>
 				<section class="header__image">
 					<div class="header__image-container">
