@@ -61,6 +61,7 @@
 
 			h1 {
 				width: 13em;
+				// font-size: 2.4rem;
 				text-align: center;
 				letter-spacing: normal;
 				padding: 0.5em 0;
@@ -88,6 +89,16 @@
 					height: 100%;
 					width: 100%;
 					position: absolute;
+				}
+			}
+		}
+	}
+
+	@media (max-width: 400px) {
+		.last__section {
+			&-container {
+				h1 {
+					font-size: 1.4em;
 				}
 			}
 		}
