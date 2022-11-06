@@ -18,6 +18,7 @@
 		height: 100%;
 		position: absolute;
 		top: 0;
+		left: 0;
 		width: 100%;
 		background: purple;
 		&.invert {
@@ -45,5 +46,18 @@
 	.header__white-bg {
 		background: white;
 		height: 100%;
+	}
+
+	@media (max-width: 1076px) {
+		.bg {
+			&:not(.invert) {
+				display: none;
+				flex-flow: column;
+
+				.header__green-bg {
+					height: 46em;
+				}
+			}
+		}
 	}
 </style>
