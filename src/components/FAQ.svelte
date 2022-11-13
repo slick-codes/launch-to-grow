@@ -71,6 +71,7 @@
 			font-weight: 400;
 			background: rgba(237, 237, 237, 0.549);
 			width: 100%;
+			border-top: solid 0.5em #49b749;
 		}
 		&__title {
 			width: 100%;
