@@ -6,15 +6,18 @@
 		<section class="about innerbackground">
 			<div class="about__us">
 				<h1>About Us</h1>
-				<p>
-					You are here because you're interested in being a part of our investors community Launch
-					to Grow is making it possible to micro-invest in the best early-stage tech startups in
-					Africa.You are. Here because you're interested in being a part of our investors community.
-					Launch to Grow is making <br /><br /> it possible to micro-invest in the best early-stage tech
-					startups in Africa.Grow is making it possible to micro-invest in the best early-stage tech
-					startups in Africa.Grow is making it possible to micro-invest in the best early-stage tech
-					startups in Africa.
-				</p>
+				<div class="txt">
+					Launch to Grow is a venture capital and consulting firm set up to support early-stage
+					ventures and founders across Africa with the relevant resources, tools and funding they
+					need to launch and scale.
+					<ul type="star">
+						<li>Venture Capital</li>
+						<li>SPV Management</li>
+						<li>Finance Consulting</li>
+						<li>Management Consulting</li>
+						<li>Market Research & Analytics</li>
+					</ul>
+				</div>
 			</div>
 		</section>
 	</div>
@@ -92,12 +95,22 @@
 				padding-top: 0;
 			}
 
-			p {
+			.txt {
 				font-size: 0.85rem;
 				font-weight: 600;
 				line-height: 1.3em;
 				letter-spacing: normal;
 				color: white;
+				list-style: initial;
+
+				ul {
+					padding-left: 1em;
+
+					li {
+						list-style: initial;
+						padding: 0.08em;
+					}
+				}
 			}
 		}
 
