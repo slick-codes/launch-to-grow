@@ -34,8 +34,8 @@
 			<div class="nav__join-button">
 				<div class="button">
 					<button
-						data-tf-popup="iXFRG3k5"
-						data-tf-iframe-props="title=My typeform"
+						data-tf-popup="UxdFQJjP"
+						data-tf-iframe-props="title=Register Investors"
 						data-tf-medium="snippet"
 					>
 						JOIN US
