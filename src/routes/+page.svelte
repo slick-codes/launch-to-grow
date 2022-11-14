@@ -9,7 +9,6 @@
 	<!-- <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet" /> -->
 	<link href="https://fonts.cdnfonts.com/css/raleway-5" rel="stylesheet" />
 	<script src="//embed.typeform.com/next/embed.js"></script>
-	<script src="//embed.typeform.com/next/embed.js"></script>
 	<title>LaunchToGrow | Landing Page</title>
 </svelte:head>
 
@@ -24,14 +23,15 @@
 	/* your styles go here */
 	:global(*) {
 		font-family: 'raleway';
-		/* letter-spacing: 0.1em; */
-	}
-	:global(*) {
 		margin: 0;
 		padding: 0;
 		text-decoration: none;
 		list-style: none;
 		box-sizing: border-box;
+		/* letter-spacing: 0.1em; */
+	}
+	:global(* button) {
+		cursor: pointer;
 	}
 	:global(.innerbackground > *) {
 		z-index: 3;
