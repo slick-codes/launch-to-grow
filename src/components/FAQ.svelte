@@ -34,20 +34,21 @@
 		align-items: center;
 		justify-content: space-between;
 		background: white;
-		border: solid 1px rgb(200, 200, 200);
+		border: solid 1px #49b749;
 		border-top: none;
 		border-bottom: none;
 		cursor: pointer;
 		border-left: none;
 		border-right: none;
+		border-color: #49b749;
 
 		&:first-child {
-			border: solid 1px rgb(200, 200, 200);
+			border: solid 1px #49b749;
 			border-right: inherit;
 			border-left: inherit;
 		}
 		&:not(:first-child) {
-			border-bottom: solid 1px rgb(200, 200, 200);
+			border-bottom: solid 1px #49b749;
 		}
 		// max-width: 50em;
 
@@ -71,7 +72,7 @@
 			font-weight: 400;
 			background: rgba(237, 237, 237, 0.549);
 			width: 100%;
-			border-top: solid 0.5em #49b749;
+			border-top: solid 0.4em #49b749;
 		}
 		&__title {
 			width: 100%;
