@@ -10,6 +10,7 @@
 	<link href="https://fonts.cdnfonts.com/css/raleway-5" rel="stylesheet" />
 	<script src="//embed.typeform.com/next/embed.js"></script>
 	<script src="//embed.typeform.com/next/embed.js"></script>
+	<title>LaunchToGrow | Landing Page</title>
 </svelte:head>
 
 <main class="container">
