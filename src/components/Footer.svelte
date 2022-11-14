@@ -12,7 +12,13 @@
 		<div class="last__section">
 			<div class="last__section-container">
 				<h1>Join the L2G Syndicate to Invest in Tech Startups!</h1>
-				<button>JOIN US</button>
+				<button
+					data-tf-popup="V1KAm8lN"
+					data-tf-iframe-props="title=email list"
+					data-tf-medium="snippet"
+				>
+					JOIN OUR MAILING LIST
+				</button>
 			</div>
 		</div>
 		<div class="copyright">
