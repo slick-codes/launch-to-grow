@@ -9,7 +9,7 @@
 	<!-- <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet" /> -->
 	<link href="https://fonts.cdnfonts.com/css/raleway-5" rel="stylesheet" />
 	<script src="//embed.typeform.com/next/embed.js"></script>
-	<title>LaunchToGrow | Landing Page</title>
+	<title>Launchtogrow | Home</title>
 </svelte:head>
 
 <main class="container">
@@ -26,9 +26,16 @@
 		margin: 0;
 		padding: 0;
 		text-decoration: none;
-		list-style: none;
+		// list-style: none;
 		box-sizing: border-box;
+		outline: none;
 		/* letter-spacing: 0.1em; */
+	}
+	:global(.clickme) {
+		color: rgb(0, 85, 255);
+		text-decoration: underline;
+		font-weight: bolder;
+		font-style: italic;
 	}
 	:global(* button) {
 		cursor: pointer;
@@ -64,5 +71,12 @@
 			top: 0;
 			// z-index: 0;
 		}
+	}
+	:global(.faq__list-container) {
+		margin-left: 1em;
+		// list-style: auto;
+	}
+	:globa(li) {
+		list-style: circle;
 	}
 </style>
