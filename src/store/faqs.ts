@@ -7,7 +7,7 @@ export const faqState = writable(NaN)
 export const faqs = [
     {
         title: "How can I join the L2G Syndicate?",
-        body: "Interested individuals, institutions and investing groups can join the syndicate by indicating their interest to invest here. On receipt of your application, due diligence and background checks will be undertaken. Applicants with a clean report will receive further details about the onboarding process. Once successfully onboarded, members will have access to our deal room and be able to co-invest with Launch to Grow."
+        body: 'Interested individuals, institutions and investing groups can join the syndicate by indicating their interest to invest <span data-tf-popup="UxdFQJjP" data-tf-iframe-props="title=Register Investors" data-tf-medium="snippet" class="clickme"> here</span>. On receipt of your application, due diligence and background checks will be undertaken. Applicants with a clean report will receive further details about the onboarding process. Once successfully onboarded, members will have access to our deal room and be able to co-invest with Launch to Grow.'
     }, {
         title: "What is the maximum I can invest?",
         body: "We strongly advise that you do not invest more than 10% of your annual income on any company as startup investing is risky and should only be a part of a wider portfolio diversification strategy."
@@ -31,6 +31,6 @@ export const faqs = [
         body: "The average time for a company to transition from one business stage to another vary. The average African business may take a little longer to make such transitions due to the infrastructural challenges on the continent. <br><br> Globally, the time horizon for investments in illiquid asset classes such as venture capital takes 5 – 10 years. While we aim at meeting up with global practice, we will be patient with interesting companies that need some more time to grow."
     }, {
         title: "Are there other ways Launch to Grow supports founders?",
-        body: "Beyond our service offerings of venture capital, SPV management, finance consulting, and management consulting, we will happily refer founders to industry experts and partner organisations in our network who can provide them with the following services and more while fitting their budget: <br>Legal Services<br>Digital Marketing<br>Web & App Development"
+        body: "Beyond our service offerings of venture capital, SPV management, finance consulting, and management consulting, we will happily refer founders to industry experts and partner organisations in our network who can provide them with the following services and more while fitting their budget: <br> <ul class='faq__list-container'><li>Legal Services</li><li>Digital Marketing</li><li>Web & App Development</li></ul>"
     }
 ]
