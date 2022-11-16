@@ -2,7 +2,7 @@
 	<div class="inner__container content">
 		<div>
 			<section class="image">
-				<img src="/3026238-removebg-preview.png" alt="No" />
+				<img src="/business_startup.png" alt="No" />
 			</section>
 			<section class="about innerbackground">
 				<div class="about__us">
@@ -11,24 +11,22 @@
 						Launch to Grow is a venture capital and consulting firm set up to support early-stage
 						ventures and founders across Africa with the relevant resources, tools and funding they
 						need to launch and scale.
-						<ul type="star">
-							<li>Venture Capital</li>
-							<li>SPV Management</li>
-							<li>Finance Consulting</li>
-							<li>Management Consulting</li>
-							<li>Market Research & Analytics</li>
-						</ul>
+						<br />
+						<br />
+						The company was founded in 2018 as Strategic Sync Consulting and in 2021, was restructured
+						and rebranded as Launch to Grow Capital to align more with its strategic vision of supporting
+						and founding innovative ideas and founders solving African and Global problems at scale.
 					</div>
 				</div>
 			</section>
 		</div>
 		<div>
 			<section class="image">
-				<img src="/5510785-removebg-preview.png" alt="No" />
+				<img src="/Wavy_Bus-35_Single-01_prev_ui.png" alt="No" />
 			</section>
 			<section class="about innerbackground">
 				<div class="about__us">
-					<h1>THe L2G Syndicate</h1>
+					<h1>The L2G Syndicate</h1>
 					<div class="txt">
 						The L2G Syndicate is an exclusive investment vehicle that is making it possible for
 						individuals, groups, and institutions to micro-invest along with Launch to Grow in the
