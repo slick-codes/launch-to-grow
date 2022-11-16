@@ -18,7 +18,7 @@
 							data-tf-iframe-props="title=Register Startup"
 							data-tf-medium="snippet"
 						>
-							Register
+							Pitch us.
 						</span>
 					</p>
 				</section>
