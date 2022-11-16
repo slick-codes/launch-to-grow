@@ -14,8 +14,8 @@
 </script>
 
 <!-- svelte-ignore a11y-click-events-have-key-events -->
-<div class="faq" on:click={updateState}>
-	<div class="faq__title">
+<div class="faq">
+	<div class="faq__title" on:click={updateState}>
 		<h1>{@html title}</h1>
 		<div class="symble">{state === index ? '-' : '+'}</div>
 	</div>
