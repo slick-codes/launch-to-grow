@@ -11,7 +11,7 @@
 
 		<div class="last__section">
 			<div class="last__section-container">
-				<h1>Join the L2G Syndicate to Invest in Tech Startups!</h1>
+				<h1>Stay updated with us</h1>
 				<button
 					data-tf-popup="V1KAm8lN"
 					data-tf-iframe-props="title=email list"
@@ -22,11 +22,20 @@
 			</div>
 		</div>
 		<div class="copyright">
-			<section>&copy; LaunchToGo</section>
+			<h1>Contact Us</h1>
+			<br />
+			<span><Icon icon="mdi:address-marker-outline" /> 7a Milverton Road, Ikoyi, Lagos.</span>
+			<span><Icon icon="material-symbols:call-outline-rounded" /> (+234) 1 453 8872</span>
+			<span
+				><Icon icon="material-symbols:attach-email" />
+				<a href="mailto:hello@launchtogrow.co"> hello@launchtogrow.co</a></span
+			>
+			<br /><br />
+			<section>&copy; LaunchToGrow</section>
 			<section class="footer__copyright-icon">
+				<Icon icon="ri:linkedin-box-fill" />
 				<Icon icon="ant-design:facebook-filled" />
-				<Icon icon="ant-design:facebook-filled" />
-				<Icon icon="ant-design:facebook-filled" />
+				<Icon icon="fa6-brands:square-twitter" />
 			</section>
 		</div>
 	</div>
@@ -50,6 +59,19 @@
 		font-size: 1rem;
 		font-weight: 500;
 		padding-bottom: 1em;
+
+		h1 {
+			font-weight: 900;
+			font-size: 2.3rem;
+		}
+
+		span {
+			padding: 0.2em 0.8em;
+			font-size: 0.9rem;
+			font-weight: 600;
+			background: white;
+			border-radius: 0.3em;
+		}
 	}
 	.last__section {
 		display: flex;
