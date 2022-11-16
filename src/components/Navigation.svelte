@@ -61,6 +61,10 @@
 		justify-content: center;
 		// align-items: center;
 
+		* {
+			list-style: none;
+		}
+
 		&__container {
 			display: flex;
 			justify-content: space-between;
