@@ -1,26 +1,28 @@
 <script lang="ts">
-	import ProjectCard from './ProjectCard.svelte';
+	// import ProjectCard from './ProjectCard.svelte';
+	import Service from './Services.svelte';
 </script>
 
 <main class="project innerbackground" id="Project">
 	<div class="project__container ">
 		<section class="project__title">
-			<h1>Portfolio</h1>
-			<p>Services We've rendered to over the years.</p>
+			<h1>Services</h1>
+			<p>These are what we can do for you.</p>
 		</section>
 		<section class="project__cards">
-			<ProjectCard />
-			<ProjectCard />
-			<ProjectCard />
-			<ProjectCard />
-			<ProjectCard />
-			<ProjectCard />
+			<Service />
+			<Service />
+			<Service />
+			<Service />
+			<Service />
+			<Service />
 		</section>
 	</div>
 </main>
 
 <style lang="scss">
 	.project {
+		list-style: none;
 		padding: 5em 0;
 		padding-top: 5em;
 		display: flex;
