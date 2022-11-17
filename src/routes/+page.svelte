@@ -9,7 +9,7 @@
 	<!-- <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet" /> -->
 	<link href="https://fonts.cdnfonts.com/css/raleway-5" rel="stylesheet" />
 	<script src="//embed.typeform.com/next/embed.js"></script>
-	<title>Launchtogrow | Home</title>
+	<title>Launch to Grow - Angel round for Underpriviledged Founders</title>
 </svelte:head>
 
 <main class="container">
@@ -30,6 +30,16 @@
 		box-sizing: border-box;
 		outline: none;
 		/* letter-spacing: 0.1em; */
+	}
+	:global(h1:before) {
+		font-size: inherit;
+		font-weight: inherit;
+		position: absolute;
+		left: 0em;
+		width: 100%;
+	}
+	:global(h1) {
+		position: relative;
 	}
 	:global(.clickme) {
 		color: rgb(0, 85, 255);

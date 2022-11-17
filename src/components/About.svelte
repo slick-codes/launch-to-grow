@@ -6,7 +6,7 @@
 			</section>
 			<section class="about innerbackground">
 				<div class="about__us">
-					<h1>About Us</h1>
+					<h1>Who we are</h1>
 					<div class="txt">
 						Launch to Grow is a venture capital and consulting firm set up to support early-stage
 						ventures and founders across Africa with the relevant resources, tools and funding they
@@ -127,20 +127,11 @@
 			.txt {
 				font-size: 0.85rem;
 				font-weight: 600;
-				line-height: 1.3em;
+				line-height: 1.6em;
 				max-width: 35em;
 				letter-spacing: normal;
 				color: white;
 				list-style: initial;
-
-				ul {
-					padding-left: 1em;
-
-					li {
-						list-style: initial;
-						padding: 0.08em;
-					}
-				}
 			}
 		}
 
@@ -179,9 +170,6 @@
 						&:after {
 							display: block;
 						}
-					}
-					h1 {
-						// color: black;
 					}
 				}
 			}

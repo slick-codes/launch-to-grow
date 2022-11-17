@@ -6,8 +6,8 @@
 <main class="project innerbackground" id="Project">
 	<div class="project__container ">
 		<section class="project__title">
-			<h1>Services</h1>
-			<p>These are what we can do for you.</p>
+			<h1>What We Do</h1>
+			<p>We provide the following services to businesses, founders and professionals</p>
 		</section>
 		<section class="project__cards">
 			<Service title="Venture Capital" />
