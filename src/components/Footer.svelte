@@ -11,7 +11,7 @@
 
 		<div class="last__section">
 			<div class="last__section-container">
-				<h1>Stay intouch with us</h1>
+				<h1>Let's keep you updated!</h1>
 				<button
 					data-tf-popup="V1KAm8lN"
 					data-tf-iframe-props="title=email list"
