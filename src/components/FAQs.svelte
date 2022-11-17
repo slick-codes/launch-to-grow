@@ -7,7 +7,7 @@
 	<div class="faqs__container">
 		<section class="faqs__title">
 			<h1>FAQs</h1>
-			<p>Frequently Asked Questions.</p>
+			<p>Frequently Asked Questions</p>
 		</section>
 		<section class="faqs__content">
 			{#each faqs as faq, index}

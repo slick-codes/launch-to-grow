@@ -12,13 +12,13 @@
 				<section class="header__text innerbackground ">
 					<h1>Join the L2G Syndicate to <span>Invest</span> in Tech Startups</h1>
 					<p>
-						Have an great idea?
+						Have a Great Idea?
 						<span
 							data-tf-popup="mveqQENw"
 							data-tf-iframe-props="title=Register Startup"
 							data-tf-medium="snippet"
 						>
-							Pitch us!
+							Pitch Us!
 						</span>
 					</p>
 				</section>

@@ -6,7 +6,7 @@
 			</section>
 			<section class="about innerbackground">
 				<div class="about__us">
-					<h1>Who we are</h1>
+					<h1>Who We Are</h1>
 					<div class="txt">
 						Launch to Grow is a venture capital and consulting firm set up to support early-stage
 						ventures and founders across Africa with the relevant resources, tools and funding they
