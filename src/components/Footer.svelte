@@ -34,7 +34,7 @@
 			<section>&copy; LaunchToGrow</section>
 			<section class="footer__copyright-icon">
 				<Icon icon="ri:linkedin-box-fill" />
-				<Icon icon="ant-design:facebook-filled" />
+				<Icon icon="fa-brands:instagram-square" />
 				<Icon icon="fa6-brands:square-twitter" />
 			</section>
 		</div>
