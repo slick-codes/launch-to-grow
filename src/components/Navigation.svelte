@@ -15,7 +15,7 @@
 	<div class="nav__container">
 		<section class="nav__logo">
 			<div class="logo__container">
-				<img src="/LTG2 1.png" alt="Logo Container" />
+				<img src="/LTG_logo.png" alt="Logo Container" />
 			</div>
 		</section>
 		<!-- svelte-ignore a11y-click-events-have-key-events -->
@@ -51,7 +51,7 @@
 
 <style lang="scss">
 	.nav {
-		padding: 0.5em 3em;
+		padding: 0em 3em;
 		background: white;
 		box-shadow: 0px 12px 16px -2px rgba(73, 183, 73, 0.113);
 		position: sticky;
@@ -80,7 +80,7 @@
 				display: flex;
 
 				li {
-					padding: 0.5em 1em;
+					padding: 0em 1em;
 
 					a {
 						color: black;
@@ -94,14 +94,16 @@
 
 		&__logo {
 			> div {
-				aspect-ratio: 1/1;
+				// aspect-ratio: 1/2;
 				display: flex;
 				justify-content: center;
 				align-items: center;
+				overflow: hidden;
+				// height: ;
 			}
 		}
 		img {
-			width: 5em;
+			width: 10em;
 		}
 
 		&__join-button {
