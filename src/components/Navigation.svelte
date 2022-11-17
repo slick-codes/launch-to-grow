@@ -22,10 +22,10 @@
 		<section class="nav__link">
 			<div class="link__container" class:active={menuState}>
 				<li on:click={toggleMenuState}>
-					<a href="/#About">About</a>
+					<a href="/#About">ABOUT</a>
 				</li>
 				<li on:click={toggleMenuState}>
-					<a href="/#Project">Projects</a>
+					<a href="/#Project">PROJECTS</a>
 				</li>
 				<li on:click={toggleMenuState}>
 					<a href="/#FAQs">FAQs</a>
@@ -84,7 +84,7 @@
 
 					a {
 						color: black;
-						text-transform: uppercase;
+						// text-transform: uppercase;
 						font-size: 0.8rem;
 						font-weight: 600;
 					}

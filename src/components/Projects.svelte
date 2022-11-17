@@ -7,14 +7,16 @@
 	<div class="project__container ">
 		<section class="project__title">
 			<h1>What We Do</h1>
-			<p>We provide the following services to businesses, founders and professionals</p>
+			<p>We provide the following services to businesses, founders and professionals:</p>
 		</section>
 		<section class="project__cards">
 			<Service title="Venture Capital" />
+			<Service title="L2G Syndicate" />
 			<Service title="SPV Management" />
 			<Service title="Finance Consulting" />
 			<Service title="Management Consulting" />
-			<Service title="Market Research & Analystic" />
+			<Service title="Market Research & Analytics" />
+			<!-- <Service title="Market Research & Analystic" /> -->
 		</section>
 	</div>
 </main>
