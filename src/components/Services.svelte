@@ -1,7 +1,7 @@
 <script lang="ts">
 	import Icon from '@iconify/svelte';
-
-	export let body =
+	export let title: string;
+	export let body: string =
 		"You are here because you're interested in being a part of our investors community Launch to Grow is making it possible to.";
 </script>
 
@@ -11,7 +11,7 @@
 			<div class="card__image">
 				<img src="/Wavy_Bus-35_Single-01_prev_ui.png" alt="Venture Capital stuff" />
 			</div>
-			<h4>Venture Capital</h4>
+			<h4>{title}</h4>
 		</div>
 		<p>
 			{@html body}
