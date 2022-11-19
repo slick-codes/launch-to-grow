@@ -13,7 +13,7 @@
 			<Service title="Venture Capital" />
 			<!-- <Service title="Syndicate Fund" /> -->
 			<!-- <Service title="SPV Management" /> -->
-			<!-- <Service title="Finance Consulting" /> -->
+			<Service title="Events" />
 			<Service title="Consulting" />
 			<!-- <Service title="Market Research & Analytics" /> -->
 			<!-- <Service title="Market Research & Analystic" /> -->
