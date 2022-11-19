@@ -15,7 +15,7 @@
 						<br />
 						The company was funding in 2018 as Strategic Sync Consulting and in 2021, was restructured
 						and rebranded as Launch to Grow Capital to align more with its strategic vision of supporting
-						and founding innovative ideas and founders solving African and Global problems at scale.
+						and funding innovative ideas and founders solving African and Global problems at scale.
 					</div>
 				</div>
 			</section>
