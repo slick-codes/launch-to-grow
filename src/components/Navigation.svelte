@@ -27,7 +27,7 @@
 					<a href="/#About">ABOUT US</a>
 				</li>
 				<li on:click={toggleMenuState}>
-					<a href="/#Project">OUR SERVICES</a>
+					<a href="/#Services">OUR SERVICES</a>
 				</li>
 				<li on:click={toggleMenuState}>
 					<a href="/#FAQs">FAQs</a>

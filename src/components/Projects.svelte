@@ -3,11 +3,11 @@
 	import Service from './Services.svelte';
 </script>
 
-<main class="project innerbackground" id="Project">
+<main class="project innerbackground" id="Services">
 	<div class="project__container ">
 		<section class="project__title">
 			<h1>What We Do</h1>
-			<p>We provide the following services to businesses, founders and professionals:</p>
+			<p>We provide the following services to businesses, founders,Investors and professionals:</p>
 		</section>
 		<section class="project__cards">
 			<Service title="Venture Capital" />
