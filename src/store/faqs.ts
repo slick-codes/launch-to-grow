@@ -32,5 +32,6 @@ export const faqs = [
     }, {
         title: "Are there other ways Launch to Grow supports founders?",
         body: "Beyond our venture capital and consulting services, we will happily refer founders to industry experts and partner organisations in our network who can provide them with the following services and more while fitting their budget: <br> <ul class='faq__list-container'><li>Legal Services</li><li>Digital Marketing</li><li>Web & App Development</li></ul>"
+
     }
 ]
