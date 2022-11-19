@@ -148,6 +148,7 @@
 	@media (max-width: 822px) {
 		.header {
 			// padding-left: 1em;
+			padding-bottom: 0;
 			&__intro {
 				padding: 0;
 
