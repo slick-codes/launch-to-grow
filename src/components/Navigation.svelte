@@ -24,10 +24,10 @@
 		<section class="nav__link">
 			<div class="link__container" class:active={menuState}>
 				<li on:click={toggleMenuState}>
-					<a href="/#About">WHO WE ARE</a>
+					<a href="/#About">ABOUT US</a>
 				</li>
 				<li on:click={toggleMenuState}>
-					<a href="/#Project">SERVICES</a>
+					<a href="/#Project">OUR SERVICES</a>
 				</li>
 				<li on:click={toggleMenuState}>
 					<a href="/#FAQs">FAQs</a>
