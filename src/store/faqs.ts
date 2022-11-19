@@ -31,7 +31,7 @@ export const faqs = [
         body: "The average time for a company to transition from one business stage to another vary. The average African business may take a little longer to make such transitions due to the infrastructural challenges on the continent. <br><br> Globally, the time horizon for investments in illiquid asset classes such as venture capital takes 5 – 10 years. While we aim at meeting up with global practice, we will be patient with interesting companies that need some more time to grow."
     }, {
         title: "Are there other ways Launch to Grow supports founders?",
-        body: "Beyond our venture capital, consulting and events services, we will happily refer founders to industry experts and partner organisations in our network who can provide them with the following services and more while fitting their budget: <br> <ul class='faq__list-container'><li>Legal Services</li><li>Digital Marketing</li><li>Web & App Development</li></ul>"
+        body: "Beyond our service offerings of venture capital, consulting and events, we will happily refer founders to industry experts and partner organisations in our network who can provide them with the following services and more while fitting their budget: <br> <ul class='faq__list-container'><li>Legal Services</li><li>Digital Marketing</li><li>Web & App Development</li></ul>"
 
     }
 ]
