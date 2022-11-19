@@ -15,14 +15,16 @@
 	<div class="nav__container">
 		<section class="nav__logo">
 			<div class="logo__container">
-				<img src="/LTG_logo.png" alt="Logo Container" />
+				<a href="/#home">
+					<img src="/LTG_logo.png" alt="Logo Container" />
+				</a>
 			</div>
 		</section>
 		<!-- svelte-ignore a11y-click-events-have-key-events -->
 		<section class="nav__link">
 			<div class="link__container" class:active={menuState}>
 				<li on:click={toggleMenuState}>
-					<a href="/#About">ABOUT</a>
+					<a href="/#About">WHO WE ARE</a>
 				</li>
 				<li on:click={toggleMenuState}>
 					<a href="/#Project">PROJECTS</a>

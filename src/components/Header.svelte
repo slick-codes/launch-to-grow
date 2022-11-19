@@ -3,14 +3,14 @@
 	import HeaderBackground from './../components/HeaderBackground.svelte';
 </script>
 
-<main class="container">
+<main class="container" id="home">
 	<header class="header">
 		<HeaderBackground />
 
 		<div class="header__intro">
 			<div class="header__intro-content ">
 				<section class="header__text innerbackground ">
-					<h1>Join the L2G Syndicate to <span>Invest</span> in Tech Startups</h1>
+					<h1>Join the L2G Syndicate to <span>Invest</span> in African Technology Startups.</h1>
 					<p>
 						Have a Great Idea?
 						<span
