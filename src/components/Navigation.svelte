@@ -27,7 +27,7 @@
 					<a href="/#About">WHO WE ARE</a>
 				</li>
 				<li on:click={toggleMenuState}>
-					<a href="/#Project">WHAT WE DO</a>
+					<a href="/#Project">SERVICES</a>
 				</li>
 				<li on:click={toggleMenuState}>
 					<a href="/#FAQs">FAQs</a>
