@@ -33,9 +33,15 @@
 			<br /><br />
 			<section>&copy; LaunchToGrow</section>
 			<section class="footer__copyright-icon">
-				<Icon icon="ri:linkedin-box-fill" />
-				<Icon icon="fa-brands:instagram-square" />
-				<Icon icon="fa6-brands:square-twitter" />
+				<a href="https://www.instagram.com/launchtogrowhq/" target="blank">
+					<Icon icon="ri:linkedin-box-fill" />
+				</a>
+				<a href="https://www.linkedin.com/company/launch-to-grow-capital/" target="blank">
+					<Icon icon="fa-brands:instagram-square" />
+				</a>
+				<a href="https://twitter.com/launchtogrowhq" target="blank">
+					<Icon icon="fa6-brands:square-twitter" />
+				</a>
 			</section>
 		</div>
 	</div>
@@ -120,6 +126,9 @@
 				}
 			}
 		}
+	}
+	.footer__copyright-icon a {
+		color: black;
 	}
 
 	@media (max-width: 400px) {
