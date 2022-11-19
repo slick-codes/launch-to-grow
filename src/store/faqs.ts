@@ -7,7 +7,7 @@ export const faqState = writable(NaN)
 export const faqs = [
     {
         title: "How can I join the L2G Syndicate?",
-        body: 'Interested individuals, institutions and investing groups can join the syndicate by indicating their interest to invest <span data-tf-popup="UxdFQJjP" data-tf-iframe-props="title=Register Investors" data-tf-medium="snippet" class="clickme"> here</span>. On receipt of your application, due diligence and background checks will be undertaken. Applicants with a clean report will receive further details about the onboarding process. Once successfully onboarded, members will have access to our deal room and be able to co-invest with Launch to Grow.'
+        body: 'Interested individuals, institutions and investing groups can apply to join the syndicate by clicking on the "Invest With Us" button at the top of the page. On receipt of your application, due diligence and background checks will be undertaken. Applicants with a clean report will receive further details about the onboarding process. Once successfully onboarded, members will have access to our deal room and be able to co-invest with Launch to Grow.'
     }, {
         title: "What is the maximum I can invest?",
         body: "We strongly advise that you do not invest more than 10% of your annual income on any company as startup investing is risky and should only be a part of a wider portfolio diversification strategy."
