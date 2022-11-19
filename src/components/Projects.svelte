@@ -11,11 +11,11 @@
 		</section>
 		<section class="project__cards">
 			<Service title="Venture Capital" />
-			<Service title="L2G Syndicate" />
-			<Service title="SPV Management" />
-			<Service title="Finance Consulting" />
-			<Service title="Management Consulting" />
-			<Service title="Market Research & Analytics" />
+			<!-- <Service title="Syndicate Fund" /> -->
+			<!-- <Service title="SPV Management" /> -->
+			<!-- <Service title="Finance Consulting" /> -->
+			<Service title="Consulting" />
+			<!-- <Service title="Market Research & Analytics" /> -->
 			<!-- <Service title="Market Research & Analystic" /> -->
 		</section>
 	</div>
