@@ -7,7 +7,7 @@
 	<div class="project__container ">
 		<section class="project__title">
 			<h1>What We Do</h1>
-			<p>We provide the following services to businesses, founders,Investors and professionals:</p>
+			<p>We provide the following services to businesses, founders, investors and professionals:</p>
 		</section>
 		<section class="project__cards">
 			<Service title="Venture Capital" />
