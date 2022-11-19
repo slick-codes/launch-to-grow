@@ -9,13 +9,13 @@
 					<h1>Who We Are</h1>
 					<div class="txt">
 						Launch to Grow is a venture capital and consulting firm set up to support early-stage
-						ventures and founders across Africa with the relevant resources, tools and funding they
+						ventures and funding across Africa with the relevant resources, tools and funding they
 						need to launch and scale.
 						<br />
 						<br />
 						The company was founded in 2018 as Strategic Sync Consulting and in 2021, was restructured
 						and rebranded as Launch to Grow Capital to align more with its strategic vision of supporting
-						and founding innovative ideas and funding solving African and Global problems at scale.
+						and founding innovative ideas and founders solving African and Global problems at scale.
 					</div>
 				</div>
 			</section>
