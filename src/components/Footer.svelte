@@ -33,10 +33,10 @@
 			<br /><br />
 			<section>&copy; LaunchToGrow</section>
 			<section class="footer__copyright-icon">
-				<a href="https://www.instagram.com/launchtogrowhq/" target="blank">
+				<a href="https://www.linkedin.com/company/launch-to-grow-capital/" target="blank">
 					<Icon icon="ri:linkedin-box-fill" />
 				</a>
-				<a href="https://www.linkedin.com/company/launch-to-grow-capital/" target="blank">
+				<a href="https://www.instagram.com/launchtogrowhq/" target="blank">
 					<Icon icon="fa-brands:instagram-square" />
 				</a>
 				<a href="https://twitter.com/launchtogrowhq" target="blank">

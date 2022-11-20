@@ -54,7 +54,6 @@
 					}
 					.card__image {
 						width: 5em;
-
 						img {
 							width: 100%;
 						}
@@ -65,16 +64,6 @@
 
 						img {
 							width: 42%;
-						}
-					}
-					.card__links {
-						display: flex;
-						justify-content: center;
-						align-items: center;
-
-						li {
-							font-size: 1.3rem;
-							padding: 0px 5px;
 						}
 					}
 				}
