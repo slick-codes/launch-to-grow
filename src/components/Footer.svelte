@@ -28,7 +28,7 @@
 			<span><Icon icon="material-symbols:call-outline-rounded" /> (+234) 1 453 8872</span>
 			<span
 				><Icon icon="material-symbols:attach-email" />
-				<a href="mailto:hello@launchtogrow.co"> help@launchtogrow.co</a></span
+				<a href="mailto:hello@launchtogrow.co"> hello@launchtogrow.co</a></span
 			>
 			<br /><br />
 			<section>&copy; LaunchToGrow</section>
