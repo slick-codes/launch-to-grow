@@ -2,7 +2,7 @@
 	import Icon from '@iconify/svelte';
 
 	export let body: string;
-	export let title:string;
+	export let title: string;
 </script>
 
 <div class="project__card">
@@ -11,7 +11,6 @@
 			<div class="card__logo">
 				<h3>{@html title}</h3>
 			</div>
-
 		</div>
 		<p>
 			{@html body}
@@ -45,24 +44,6 @@
 					align-items: center;
 					border-bottom: solid 1px gray;
 					justify-content: space-between;
-
-					.card__logo {
-						// background: blue;
-
-						img {
-							width: 42%;
-						}
-					}
-					.card__links {
-						display: flex;
-						justify-content: center;
-						align-items: center;
-
-						li {
-							font-size: 1.3rem;
-							padding: 0px 5px;
-						}
-					}
 				}
 			}
 			p {
@@ -71,7 +52,7 @@
 				font-weight: 500;
 				padding: 1.6em 0;
 				line-height: 1.4em;
-				height:9em;
+				height: 9em;
 			}
 		}
 	}
