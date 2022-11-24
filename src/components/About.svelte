@@ -6,33 +6,37 @@
 			</section>
 			<section class="about innerbackground">
 				<div class="about__us">
-					<h1>Who We Are</h1>
+					<h1>ABOUT US</h1>
 					<div class="txt">
 						Launch to Grow is a venture capital and consulting firm set up to support early-stage
 						ventures and founders across Africa with the relevant resources, tools and funding they
 						need to launch and scale.
 						<br />
 						<br />
-						The company was funding in 2018 as Strategic Sync Consulting and in 2021, was restructured
-						and rebranded as Launch to Grow Capital to align more with its strategic vision of supporting
-						and funding innovative ideas and founders solving African and Global problems at scale.
+						Beyond venture capital, we offer services in finance consulting, management consulting, SPV management, market research and analytics, digital marketing, and product management. We also organize trainings and events on demand.
 					</div>
 				</div>
 			</section>
 		</div>
 		<div>
 			<section class="image">
-				<img src="/Wavy_Bus-35_Single-01_prev_ui.png" alt="No" />
+				<img src="/vud7_ybe1_220517-removebg-preview.png" alt="No" />
 			</section>
 			<section class="about innerbackground">
 				<div class="about__us">
-					<h1>The L2G Syndicate</h1>
+					<h1>Our investment thesis:</h1>
 					<div class="txt">
-						The L2G Syndicate is an exclusive investment vehicle that is making it possible for
-						individuals, groups, and institutions to micro-invest along with Launch to Grow in the
-						best early-stage startups across Africa. Our investor community has an inclusive and
-						diverse membership of people who are interested in innovation and are ready to invest
-						and support founders who are building the Africa of our dream.
+						We typically invest in preseed and seed stages. However, we would love to come in as early as your family and friends especially for underprivileged or underrepresented founders with fascinating yet promising ideas. Our ticket sizes range from $5,000 to $50,000.
+						<br><br>
+						Although we are sector agnostic, we have particular interest in a few sectors as follows:
+						<ul>
+							<li>FinTech</li>
+							<li>EdTech</li>
+							<li>HealthTech</li>
+							<li>Governance</li>
+							<li>PropTech</li>
+							<li>Future of Work</li>
+						</ul>
 					</div>
 				</div>
 			</section>
@@ -41,6 +45,10 @@
 </div>
 
 <style lang="scss">
+ul{
+	margin-left:1em;
+
+}
 	.container {
 		display: flex;
 		justify-content: center;

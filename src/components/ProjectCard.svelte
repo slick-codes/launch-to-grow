@@ -1,27 +1,17 @@
 <script lang="ts">
 	import Icon from '@iconify/svelte';
 
-	export let body =
-		"You are here because you're interested in being a part of our investors community Launch to Grow is making it possible to. <br /> <br /> micro-invest in the best early-stage tech startups in Africa.You are.";
+	export let body: string;
+	export let title:string;
 </script>
 
 <div class="project__card">
 	<div class="content">
 		<div class="card__client-data">
 			<div class="card__logo">
-				<img src="/Valley_Logo.png" alt="" />
+				<h3>{@html title}</h3>
 			</div>
-			<div class="card__links">
-				<li>
-					<Icon icon="dashicons:facebook" />
-				</li>
-				<li>
-					<Icon icon="dashicons:twitter" />
-				</li>
-				<li>
-					<Icon icon="dashicons:linkedin" />
-				</li>
-			</div>
+
 		</div>
 		<p>
 			{@html body}
@@ -81,6 +71,7 @@
 				font-weight: 500;
 				padding: 1.6em 0;
 				line-height: 1.4em;
+				height:9em;
 			}
 		}
 	}

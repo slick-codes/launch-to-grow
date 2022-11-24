@@ -10,15 +10,15 @@
 		<div class="header__intro">
 			<div class="header__intro-content ">
 				<section class="header__text innerbackground ">
-					<h1>Join the L2G Syndicate to <span>Invest</span> in African Technology Startups</h1>
+					<h1>Join the L2G Syndicate and <span>invest with us</span> in the best early-stage startups across Africa.</h1>
 					<p>
-						Have a Great Idea?
+						Have a great idea?
 						<span
 							data-tf-popup="mveqQENw"
 							data-tf-iframe-props="title=Register Startup"
 							data-tf-medium="snippet"
 						>
-							Pitch Us!
+							Pitch us
 						</span>
 					</p>
 				</section>

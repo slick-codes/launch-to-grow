@@ -6,6 +6,9 @@ export const faqState = writable(NaN)
 
 export const faqs = [
     {
+        title: "What is the L2G Syndicate?",
+        body: 'IThe L2G Syndicate is an exclusive investment vehicle that is making it possible for individuals, groups, and institutions to micro-invest along with Launch to Grow in the best early-stage startups across Africa. Our investor community has an inclusive and diverse membership of people who are interested in innovation and are ready to invest and support founders who are building the African dream.'
+    },    {
         title: "How can I join the L2G Syndicate?",
         body: 'Interested individuals, institutions and investing groups can apply to join the syndicate by clicking on the "Invest With Us" button at the top of the page. On receipt of your application, due diligence and background checks will be undertaken. Applicants with a clean report will receive further details about the onboarding process. Once successfully onboarded, members will have access to our deal room and be able to co-invest with Launch to Grow.'
     }, {
@@ -31,7 +34,7 @@ export const faqs = [
         body: "The average time for a company to transition from one business stage to another vary. The average African business may take a little longer to make such transitions due to the infrastructural challenges on the continent. <br><br> Globally, the time horizon for investments in illiquid asset classes such as venture capital takes 5 – 10 years. While we aim at meeting up with global practice, we will be patient with interesting companies that need some more time to grow."
     }, {
         title: "Are there other ways Launch to Grow supports founders?",
-        body: "Beyond our service offerings of venture capital, consulting and events, we will happily refer founders to industry experts and partner organisations in our network who can provide them with the following services and more while fitting their budget: <br> <ul class='faq__list-container'><li>Legal Services</li><li>Digital Marketing</li><li>Web & App Development</li></ul>"
+        body: "We will happily refer founders to industry experts and partner organisations in our network who can provide them with relevant services and support we may not be able to provide while fitting their budget. We will also help our portfolio companies with introductions to investors where and when we can."
 
     }
 ]
