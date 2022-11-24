@@ -13,7 +13,9 @@
 						need to launch and scale.
 						<br />
 						<br />
-						Beyond venture capital, we offer services in finance consulting, management consulting, SPV management, market research and analytics, digital marketing, and product management. We also organize trainings and events on demand.
+						Beyond venture capital, we offer services in finance consulting, management consulting, SPV
+						management, market research and analytics, and product management. We also organize trainings
+						and events on demand.
 					</div>
 				</div>
 			</section>
@@ -26,8 +28,11 @@
 				<div class="about__us">
 					<h1>Our investment thesis:</h1>
 					<div class="txt">
-						We typically invest in preseed and seed stages. However, we would love to come in as early as your family and friends especially for underprivileged or underrepresented founders with fascinating yet promising ideas. Our ticket sizes range from $5,000 to $50,000.
-						<br><br>
+						We typically invest in preseed and seed stages. However, we would love to come in as
+						early as your family and friends especially for underprivileged or underrepresented
+						founders with fascinating yet promising ideas. Our ticket sizes range from $5,000 to
+						$50,000.
+						<br /><br />
 						Although we are sector agnostic, we have particular interest in a few sectors as follows:
 						<ul>
 							<li>FinTech</li>
@@ -45,10 +50,9 @@
 </div>
 
 <style lang="scss">
-ul{
-	margin-left:1em;
-
-}
+	ul {
+		margin-left: 1em;
+	}
 	.container {
 		display: flex;
 		justify-content: center;
