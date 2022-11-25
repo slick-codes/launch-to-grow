@@ -19,7 +19,7 @@
 					</div>
 				</div>
 			</section>
-		</div>
+</div>
 		<div>
 			<section class="image">
 				<img src="/vud7_ybe1_220517-removebg-preview.png" alt="No" />

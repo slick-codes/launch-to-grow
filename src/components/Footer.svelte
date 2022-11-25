@@ -25,7 +25,7 @@
 			<h1>Contact Us</h1>
 			<br />
 			<span><Icon icon="mdi:address-marker-outline" /> 7a Milverton Road, Ikoyi, Lagos.</span>
-			<span><Icon icon="material-symbols:call-outline-rounded" /> (+234) 1 453 8872</span>
+			<span><Icon icon="material-symbols:call-outline-rounded" /> (+234) 8183534949</span>
 			<span
 				><Icon icon="material-symbols:attach-email" />
 				<a href="mailto:hello@launchtogrow.co"> hello@launchtogrow.co</a></span
