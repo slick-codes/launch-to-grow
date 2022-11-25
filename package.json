@@ -34,7 +34,6 @@
 	},
 	"type": "module",
 	"dependencies": {
-		"@iconify/svelte": "^3.0.0",
-		"@netlify/plugin-emails": "^0.0.23"
+		"@iconify/svelte": "^3.0.0"
 	}
 }
