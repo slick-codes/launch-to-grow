@@ -9,7 +9,7 @@
 	<!-- <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet" /> -->
 	<link href="https://fonts.cdnfonts.com/css/raleway-5" rel="stylesheet" />
 	<script src="//embed.typeform.com/next/embed.js"></script>
-	<title>Launch to Grow - Angel round for Underpriviledged Founders</title>
+	<title>Launch to Grow -  Venture Capital and Consulting</title>
 </svelte:head>
 
 <main class="container">
