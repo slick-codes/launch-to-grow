@@ -11,7 +11,7 @@
 
 		<div class="last__section">
 			<div class="last__section-container">
-				<h1>Let's Keep You Updated!</h1>
+				<h1>Let's keep you updated!</h1>
 				<button
 					data-tf-popup="V1KAm8lN"
 					data-tf-iframe-props="title=email list"
@@ -22,10 +22,10 @@
 			</div>
 		</div>
 		<div class="copyright">
-			<h1>Contact Us</h1>
+			<h1>CONTACT US</h1>
 			<br />
 			<span><Icon icon="mdi:address-marker-outline" /> 7a Milverton Road, Ikoyi, Lagos.</span>
-			<span><Icon icon="material-symbols:call-outline-rounded" /> (+234) 8183534949</span>
+			<span style="font-family:arial; font-weight:300;"><Icon icon="material-symbols:call-outline-rounded" /> (+234) 818 353 4949</span>
 			<span
 				><Icon icon="material-symbols:attach-email" />
 				<a href="mailto:hello@launchtogrow.co"> hello@launchtogrow.co</a></span

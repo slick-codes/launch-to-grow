@@ -7,7 +7,7 @@ export const faqState = writable(NaN)
 export const faqs = [
     {
         title: "What is the L2G Syndicate?",
-        body: 'IThe L2G Syndicate is an exclusive investment vehicle that is making it possible for individuals, groups, and institutions to micro-invest along with Launch to Grow in the best early-stage startups across Africa. Our investor community has an inclusive and diverse membership of people who are interested in innovation and are ready to invest and support founders who are building the African dream.'
+        body: 'The L2G Syndicate is an exclusive investment vehicle that is making it possible for individuals, groups, and institutions to micro-invest along with Launch to Grow in the best early-stage startups across Africa. Our investor community has an inclusive and diverse membership of people who are interested in innovation and are ready to invest and support founders who are building the African dream.'
     },    {
         title: "How can I join the L2G Syndicate?",
         body: 'Interested individuals, institutions and investing groups can apply to join the syndicate by clicking on the "Invest With Us" button at the top of the page. On receipt of your application, due diligence and background checks will be undertaken. Applicants with a clean report will receive further details about the onboarding process. Once successfully onboarded, members will have access to our deal room and be able to co-invest with Launch to Grow.'

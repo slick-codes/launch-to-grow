@@ -6,7 +6,7 @@
 <main class="project innerbackground" id="Projects">
 	<div class="project__container ">
 		<section class="project__title">
-			<h1>Projects</h1>
+			<h1>PROJECTS</h1>
 			<p>The following are some companies we have worked with:</p>
 		</section>
 		<section class="project__cards">
@@ -15,7 +15,7 @@
 				title="ABC Transport PLC"
 			/>
 			<Project 
-				body="A luxury hospitality and shopping center in Abuja." 
+				body="A luxury hospitality and shopping center in Nigeria's Federal Capital Territory, Abuja." 
 				title="Dunes Center"
 			/>
 			<Project 
