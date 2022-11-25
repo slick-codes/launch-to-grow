@@ -40,7 +40,7 @@
 						data-tf-iframe-props="title=Register Investors"
 						data-tf-medium="snippet"
 					>
-						invest with us
+						Invest with us
 					</button>
 				</div>
 				<div class="menu" on:click={toggleMenuState}>
