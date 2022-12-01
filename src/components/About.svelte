@@ -13,9 +13,7 @@
 						need to launch and scale.
 						<br />
 						<br />
-						Beyond venture capital, we offer services in finance consulting, management consulting, SPV
-						management, market research and analytics, and product management. We also organize trainings
-						and events on demand.
+						Beyond venture capital, we offer services in finance consulting, SPV management, market research and analytics, and management consulting.
 					</div>
 				</div>
 			</section>
